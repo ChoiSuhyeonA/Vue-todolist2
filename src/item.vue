@@ -96,7 +96,7 @@ button{
     cursor: pointer;
   
 }
-button:hover {
+.button:hover {
     background-color: #cfd8dc;
 }
 </style>

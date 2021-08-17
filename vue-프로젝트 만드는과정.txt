@@ -1,0 +1,44 @@
+<프론트엔드 vue-cli 2버전>
+
+1. npm i -g @vue/cli-init
+
+2. vue init webpack-simple frontend(프로젝트명)
+
+3. cd frontend(프로젝트명)
+
+4. npm install
+
+5. npm run dev
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+<프론트엔드 vue-cli 3버전>
+
+1. npm i -g @vue/cli
+
+2. vue create frontend(프로젝트명)
+
+3. cd frontend(프로젝트명)
+
+4. npm run serve
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+<백엔드>
+
+1. npm install -g express-generator
+
+2. express --view=pug backend(프로젝트명)
+
+3. cd backend(프로젝트명)
+
+4. npm install
+
+5. SET DEBUG=backend:*
+
+6. npm start 
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+cf. index.html의 내용 추가 
+      //다른 디바이스에서도 잘 보일 수 있도록.
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!--css fontawesome -->
+    <link rel="styleseet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
+    <link rel="shortcut icon" href="src/assets/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="src/assets/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
